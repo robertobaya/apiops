@@ -8,7 +8,7 @@ namedValues:
     properties:
       displayName: Secret
       value: "PRODSecretT"
-  - name: mysecretvalue
+  - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
       keyVault:
