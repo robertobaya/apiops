@@ -4,9 +4,9 @@ namedValues:
     properties:
       displayName: plainvalue
       value: "https://www.PROD.search2.com"
-  - name: testSecret
+  - name: Secret
     properties:
-      displayName: testSecret
+      displayName: Secret
       value: "PRODSecretT"
 loggers:
 diagnostics:
