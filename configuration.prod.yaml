@@ -11,7 +11,7 @@ namedValues:
   - name: demopythonfunctionapprbm-key # nombre origen
     properties:
       displayName: demopythonfunctionapprbm-key #diplay name origen
-      value: "AnDjoBQykd/Qs7iyMIfMNgpr9eImKpzt0fibR1OJ9oibnqx6wLElOQ=="  # valor del named value de destino
+      value: "oqhy3m5P0bA0Y3Co4kdYPtXQIiIP5bXM9rY08Wh3Iy9dAzFu7v6YVg=="  # valor del named value de destino
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
