@@ -8,6 +8,10 @@ namedValues:
     properties:
       displayName: Secret
       value: "PRODSecretT"
+  - name: demopythonfunctionapprbm-key # nombre origen
+    properties:
+      displayName: demopythonfunctionapprbm-key #diplay name origen
+      value: "AnDjoBQykd/Qs7iyMIfMNgpr9eImKpzt0fibR1OJ9oibnqx6wLElOQ=="  # valor del named value de destino
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
@@ -17,4 +21,8 @@ namedValues:
 loggers:
 diagnostics:
 backends:
+  - name: demopythonfunctionapprbm #nombre del origen
+    properties:
+      url: "https://https://demopythonfunctionapprbm-prod.azurewebsites.net/api" #url destino
+      resourceId: "https://management.azure.com/subscriptions/253cd29a-432b-4b74-a6c9-a9eaf34b2bf4/resourceGroups/dev-apim-training-rg/providers/Microsoft.Web/sites/demopythonfunctionapprbm-PROD" #id destino
 apis:
