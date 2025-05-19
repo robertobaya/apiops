@@ -12,7 +12,7 @@ namedValues:
     properties:
       displayName: demopythonfunctionapprbm-key #diplay name origen
       value: "oqhy3m5P0bA0Y3Co4kdYPtXQIiIP5bXM9rY08Wh3Iy9dAzFu7v6YVg=="  # valor del named value de destino
-  - name: Logger-Credentials--AppInsights # nombre origen
+  - name: 682aabe4217d200b24fa0f0c # nombre origen
     properties:
       displayName: Logger-Credentials--AppInsights #diplay name origen
       value: "52d96686-1df1-40b5-aaa6-2129810a6eff"  # valor del intrumentation key destinoo
