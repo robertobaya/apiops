@@ -9,6 +9,7 @@ paths:
   /http_trigger1:
     post:
       summary: http_trigger1
+      description: http_trigger1
       operationId: http-trigger1
       responses:
         '200':
