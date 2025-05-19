@@ -12,6 +12,10 @@ namedValues:
     properties:
       displayName: demopythonfunctionapprbm-key #diplay name origen
       value: "oqhy3m5P0bA0Y3Co4kdYPtXQIiIP5bXM9rY08Wh3Iy9dAzFu7v6YVg=="  # valor del named value de destino
+  - name: Logger-Credentials--AppInsights # nombre origen
+    properties:
+      displayName: Logger-Credentials--AppInsights #diplay name origen
+      value: "52d96686-1df1-40b5-aaa6-2129810a6eff"  # valor del intrumentation key destinoo
   - name: kv-secret-demo
     properties:
       displayName: kv-secret-demo
@@ -19,6 +23,14 @@ namedValues:
         identityClientId: afe81a3c-9d76-4793-93a0-ff6da00b1c0c
         secretIdentifier: https://demo-kv-rbm.vault.azure.net/secrets/kv-secret-demo-PROD/fd8e95be1f054b3e838f8b45b6746f0b
 loggers:
+    - name: demo-appinsight #[source (not destination) application insights name that you are overriding. Refer to the wiki at https://github.com/Azure/apiops/wiki/APIM-resources#loggers on options to override the logger name in higher environment]
+      properties:
+        loggerType: applicationInsights
+        description: prod application insights
+        resourceId: "/subscriptions/253cd29a-432b-4b74-a6c9-a9eaf34b2bf4/resourceGroups/prod-rg/providers/microsoft.insights/components/demo-appinsight-PROD" # destino
+        credentials:
+          instrumentationKey: "{{Logger-Credentials--AppInsights}}" # renombrar el named value en origen para que sea mas facil luego crear en secret en este configfile y usar el nombre cambiado
+        isBuffered: true
 diagnostics:
 backends:
   - name: demopythonfunctionapprbm #nombre del origen
