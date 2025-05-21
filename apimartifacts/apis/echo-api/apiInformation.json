@@ -1,10 +1,10 @@
 {
   "properties": {
-    "path": "echo",
+    "path": "rest/echo",
     "apiRevision": "1",
     "authenticationSettings": {},
     "isCurrent": true,
-    "displayName": "Echo API",
+    "displayName": "Echo API VSCode",
     "protocols": [
       "https"
     ],
