@@ -1,0 +1,6 @@
+apimServiceName:  prod-cicd-apim #[prod or any other target environment apim instance name goes here]
+namedValues:
+loggers:
+diagnostics:
+backends:
+apis:
