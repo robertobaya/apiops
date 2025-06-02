@@ -1,5 +1,13 @@
 apimServiceName:  prod-cicd-apim #[prod or any other target environment apim instance name goes here]
 namedValues:
+  - name: plainvalue #nombre origen
+    properties:
+      displayName: plainvalue # origen
+      value: "https://www.PRODsearch2.com" # destino
+  - name: secret # origen
+    properties:
+      displayName: secret # origen
+      value: "PRODsecret" # destino
 loggers:
 diagnostics:
 backends:
