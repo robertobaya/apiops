@@ -8,6 +8,12 @@ namedValues:
     properties:
       displayName: secret # origen
       value: "PRODsecret" # destino
+  - name: mysecretvalue
+    properties:
+      displayName: kv-secret-demo # origen
+      keyVault:
+        identityClientId: 7e4bbf26-3e8f-4aba-8d5d-d417c279661b # origen
+        secretIdentifier: https://rbm-kvlt.vault.azure.net/secrets/kv-secret-demo-prod/2ad263afb99c4fbb96f63131e9676b28 # destino
 loggers:
 diagnostics:
 backends:
