@@ -4,9 +4,9 @@ namedValues:
     properties:
       displayName: plainvalue # origen
       value: "https://www.PRODsearch2.com" # destino
-  - name: secretdev # origen
+  - name: secret # origen
     properties:
-      displayName: secretdev # origen
+      displayName: secret # origen
       value: "PRODsecret" # destino
   - name: mysecretvalue
     properties:
